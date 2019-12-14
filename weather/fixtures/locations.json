@@ -1,0 +1,502 @@
+[
+    {
+        "model": "weather.location",
+        "pk": 1,
+        "fields": {"city":"New York","state":"NY","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 2,
+        "fields": {"city":"Los Angeles","state":"CA","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 3,
+        "fields": {"city":"Chicago","state":"IL","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 4,
+        "fields": {"city":"Houston","state":"TX","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 5,
+        "fields": {"city":"Phoenix","state":"AZ","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 6,
+        "fields": {"city":"Philadelphia","state":"PA","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 7,
+        "fields": {"city":"San Antonio","state":"TX","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 8,
+        "fields": {"city":"San Diego","state":"CA","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 9,
+        "fields": {"city":"Dallas","state":"TX","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 10,
+        "fields": {"city":"San Jose","state":"CA","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 11,
+        "fields": {"city":"Austin","state":"TX","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 12,
+        "fields": {"city":"Jacksonville","state":"FL","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 13,
+        "fields": {"city":"Fort Worth","state":"TX","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 14,
+        "fields": {"city":"Columbus","state":"OH","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 15,
+        "fields": {"city":"San Francisco","state":"CA","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 16,
+        "fields": {"city":"Charlotte","state":"NC","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 17,
+        "fields": {"city":"Indianapolis","state":"IN","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 18,
+        "fields": {"city":"Seattle","state":"WA","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 19,
+        "fields": {"city":"Denver","state":"CO","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 20,
+        "fields": {"city":"Washington","state":"DC","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 21,
+        "fields": {"city":"Boston","state":"MA","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 22,
+        "fields": {"city":"El Paso","state":"TX","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 23,
+        "fields": {"city":"Detroit","state":"MI","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 24,
+        "fields": {"city":"Nashville","state":"TN","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 25,
+        "fields": {"city":"Portland","state":"OR","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 26,
+        "fields": {"city":"Memphis","state":"TN","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 27,
+        "fields": {"city":"Oklahoma City","state":"OK","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 28,
+        "fields": {"city":"Las Vegas","state":"NV","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 29,
+        "fields": {"city":"Louisville","state":"KY","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 30,
+        "fields": {"city":"Baltimore","state":"MD","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 31,
+        "fields": {"city":"Milwaukee","state":"WI","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 32,
+        "fields": {"city":"Albuquerque","state":"NM","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 33,
+        "fields": {"city":"Tucson","state":"AZ","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 34,
+        "fields": {"city":"Fresno","state":"CA","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 35,
+        "fields": {"city":"Mesa","state":"AZ","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 36,
+        "fields": {"city":"Sacramento","state":"CA","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 37,
+        "fields": {"city":"Atlanta","state":"GA","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 38,
+        "fields": {"city":"Kansas City","state":"MO","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 39,
+        "fields": {"city":"Colorado Springs","state":"CO","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 40,
+        "fields": {"city":"Miami","state":"FL","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 41,
+        "fields": {"city":"Raleigh","state":"NC","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 42,
+        "fields": {"city":"Omaha","state":"NE","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 43,
+        "fields": {"city":"Long Beach","state":"CA","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 44,
+        "fields": {"city":"Virginia Beach","state":"VA","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 45,
+        "fields": {"city":"Oakland","state":"CA","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 46,
+        "fields": {"city":"Minneapolis","state":"MN","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 47,
+        "fields": {"city":"Tulsa","state":"OK","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 48,
+        "fields": {"city":"Arlington","state":"TX","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 49,
+        "fields": {"city":"Tampa","state":"FL","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 50,
+        "fields": {"city":"New Orleans","state":"LA","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 51,
+        "fields": {"city":"Wichita","state":"KS","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 52,
+        "fields": {"city":"Cleveland","state":"OH","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 53,
+        "fields": {"city":"Bakersfield","state":"CA","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 54,
+        "fields": {"city":"Aurora","state":"CO","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 55,
+        "fields": {"city":"Anaheim","state":"CA","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 56,
+        "fields": {"city":"Honolulu","state":"HI","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 57,
+        "fields": {"city":"Santa Ana","state":"CA","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 58,
+        "fields": {"city":"Riverside","state":"CA","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 59,
+        "fields": {"city":"Corpus Christi","state":"TX","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 60,
+        "fields": {"city":"Lexington","state":"KY","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 61,
+        "fields": {"city":"Stockton","state":"CA","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 62,
+        "fields": {"city":"Henderson","state":"NV","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 63,
+        "fields": {"city":"Saint Paul","state":"MN","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 64,
+        "fields": {"city":"St. Louis","state":"MO","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 65,
+        "fields": {"city":"Cincinnati","state":"OH","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 66,
+        "fields": {"city":"Pittsburgh","state":"PA","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 67,
+        "fields": {"city":"Greensboro","state":"NC","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 68,
+        "fields": {"city":"Anchorage","state":"AK","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 69,
+        "fields": {"city":"Plano","state":"TX","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 70,
+        "fields": {"city":"Lincoln","state":"NE","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 71,
+        "fields": {"city":"Orlando","state":"FL","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 72,
+        "fields": {"city":"Irvine","state":"CA","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 73,
+        "fields": {"city":"Newark","state":"NJ","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 74,
+        "fields": {"city":"Toledo","state":"OH","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 75,
+        "fields": {"city":"Durham","state":"NC","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 76,
+        "fields": {"city":"Chula Vista","state":"CA","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 77,
+        "fields": {"city":"Fort Wayne","state":"IN","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 78,
+        "fields": {"city":"Jersey City","state":"NJ","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 79,
+        "fields": {"city":"St. Petersburg","state":"FL","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 80,
+        "fields": {"city":"Laredo","state":"TX","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 81,
+        "fields": {"city":"Madison","state":"WI","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 82,
+        "fields": {"city":"Chandler","state":"AZ","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 83,
+        "fields": {"city":"Buffalo","state":"NY","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 84,
+        "fields": {"city":"Lubbock","state":"TX","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 85,
+        "fields": {"city":"Scottsdale","state":"AZ","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 86,
+        "fields": {"city":"Reno","state":"NV","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 87,
+        "fields": {"city":"Glendale","state":"AZ","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 88,
+        "fields": {"city":"Gilbert","state":"AZ","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 89,
+        "fields": {"city":"Winston-Salem","state":"NC","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 90,
+        "fields": {"city":"North Las Vegas","state":"NV","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 91,
+        "fields": {"city":"Norfolk","state":"VA","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 92,
+        "fields": {"city":"Chesapeake","state":"VA","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 93,
+        "fields": {"city":"Garland","state":"TX","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 94,
+        "fields": {"city":"Irving","state":"TX","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 95,
+        "fields": {"city":"Hialeah","state":"FL","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 96,
+        "fields": {"city":"Fremont","state":"CA","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 97,
+        "fields": {"city":"Boise","state":"ID","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 98,
+        "fields": {"city":"Richmond","state":"VA","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 99,
+        "fields": {"city":"Baton Rouge","state":"LA","country":"USA"}
+    },
+    {
+        "model": "weather.location",
+        "pk": 100,
+        "fields": {"city":"Spokane","state":"WA","country":"USA"}
+    }
+]
