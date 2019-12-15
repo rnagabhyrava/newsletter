@@ -9,13 +9,10 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
-# Quick-start development settings - unsuitable for production
-# See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
-
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = '#5y)d0g_n#-0$@u*u@4kn_l67z)t3-1n7=kgfwx6ovz$f)b8)j'
 
-# SECURITY WARNING: don't run with debug turned on in production!
+# Change this to False during production and add ALLOWED_HOSTS
 DEBUG = True
 
 ALLOWED_HOSTS = []
@@ -67,7 +64,6 @@ WSGI_APPLICATION = 'newsletter.wsgi.application'
 
 
 # Database
-# https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
 DATABASES = {
     'default': {
@@ -78,7 +74,6 @@ DATABASES = {
 
 
 # Password validation
-# https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
 
 AUTH_PASSWORD_VALIDATORS = [
     {
@@ -97,7 +92,6 @@ AUTH_PASSWORD_VALIDATORS = [
 
 
 # Internationalization
-# https://docs.djangoproject.com/en/2.2/topics/i18n/
 
 LANGUAGE_CODE = 'en-us'
 
@@ -111,10 +105,11 @@ USE_TZ = True
 
 
 # Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
 
+
+# Email setting
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = 'rnagabhyrava@gmail.com'
 EMAIL_HOST_PASSWORD = 'Roh1thB@nnu'

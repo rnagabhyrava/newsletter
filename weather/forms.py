@@ -9,3 +9,12 @@ class SignupForm(forms.ModelForm):
         widgets = {
             'location': autocomplete.ModelSelect2(url='weather:location-autocomplete')
         }
+        labels = {
+            'email_address': "Email",
+            'location': "Location"
+        }
+
+    def __init__(self, *args, **kwargs):
+        super(SignupForm, self).__init__(*args, **kwargs) # Call to ModelForm constructor
+        self.fields['email_address'].widget.attrs['size'] = 39
+        self.fields['location'].widget.attrs['size'] = 35
