@@ -39,10 +39,15 @@ class Command(BaseCommand):
         loc_str = location.city + ',' + location.state + ',' + location.country
         if loc_str not in email_dict:
             status, temp, diff = get_temps(loc_str)
-            body =  "%d degrees, %s" % (temp, status)
+            if status == 'Clouds':
+                status = 'Cloudy'
+
+            body = 'Hello!<br />Currently, in %s, it is %d degrees, and %s.<br /><br />' % (location.city, temp, status)
+
+            #body =  "%d degrees, %s" % (temp, status)
             if status == 'Clear' or diff > 5:
                 subject = "It's nice out! Enjoy a discount on us."
-            elif status in ('Rain', 'Thunderstorm', 'Drizzle') or diff < 5:
+            elif status in ('Rain', 'Thunderstorm', 'Drizzle') or diff <= 5:
                 subject =  "Not so nice out? That's okay, enjoy a discount on us."
             else:
                 subject = "Enjoy a discount on us." 

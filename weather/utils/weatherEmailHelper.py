@@ -27,7 +27,7 @@ def get_temps(loc_str,key=WEATHER_KEY):
         
     forecast = owm.three_hours_forecast(loc_str)
     tomorrow_temp = forecast.get_weather_at(current_time+84000).get_temperature('fahrenheit')['temp']
-    return current_status, current_temp, round(current_temp-tomorrow_temp)
+    return current_status, current_temp, (current_temp-tomorrow_temp)
 
 
 def send_email(email_address,subject,body,mail_api=MAIL_KEY,from_address=FROM_ADDRESS):

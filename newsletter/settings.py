@@ -110,8 +110,8 @@ STATIC_URL = '/static/'
 
 
 # Email setting
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'rnagabhyrava@gmail.com'
-EMAIL_HOST_PASSWORD = 'Roh1thB@nnu'
+EMAIL_HOST = 'smtp.gmail.com' # If using other service you may need to update this
+EMAIL_HOST_USER = '' # Add your email Address
+EMAIL_HOST_PASSWORD = '' # Add your password
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True

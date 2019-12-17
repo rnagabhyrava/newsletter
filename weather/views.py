@@ -38,7 +38,7 @@ class LocationAutocomplete(autocomplete.Select2QuerySetView):
     def get_queryset(self):
         qs = Location.objects.all().order_by('pk')
         
-        # if self.q:
-        #     qs = qs.filter(city__istartswith=self.q)
+        if self.q:
+             qs = qs.filter(city__istartswith=self.q)
 
         return qs
